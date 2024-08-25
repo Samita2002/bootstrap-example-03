@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
 
-    <title>Elephant</title>
+    <title>Cat</title>
 
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
 
@@ -16,88 +17,87 @@
 
     <!--Additional styles for this template, affect backgrounds and buttons-->
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
         }
-      }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+        
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+        
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+        
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+        
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+        
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+        
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+        }
     </style>
 
-    
-  </head>
 
-  <body>
+</head>
+
+<body>
     <!--Color mode toggle tool (bottom-right)-->
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -116,85 +116,82 @@
     </svg>
 
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-              id="bd-theme"
-              type="button"
-              aria-expanded="false"
-              data-bs-toggle="dropdown"
-              aria-label="Toggle theme (auto)">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
         <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
         <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
       </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
             <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
             Light
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
             <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
             Dark
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
             <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
             Auto
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
-        </li>
-      </ul>
-    </div>
-    
-<main>
-  <div class="container py-4">
-    <header class="pb-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
-        <img src="assets/images/logo.png" height="32" alt="">
-        <span class="fs-4">Elephant</span>
-      </a>
-    </header>
-
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Elephant</h1>
-        <p class="col-md-8 fs-4">Elephants are the largest living land animals. Distinctive features of elephants include a long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive grey skin.</p>
-        <button class="btn btn-primary btn-lg" type="button" onclick="window.open('https://en.wikipedia.org/wiki/Elephant','_blank')">More..</button>
-      </div>
+            </li>
+        </ul>
     </div>
 
-    <div class="row align-items-md-stretch">
-      <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark rounded-3">
-          <h2>African bush elephant</h2>
-          <p>African bush elephants are distributed across 37 African countries and inhabits forests, grasslands and woodlands, wetlands and agricultural land.</p>
-          <img src="assets/images/african_elephant_1.jpg" width="50%" alt="African bush elephant"><br><br>
-          <button class="btn btn-outline-light" type="button" onclick="window.open('https://www.flickr.com/photos/rayinmanila/53174575364','_blank')">More..</button>
+    <main>
+        <div class="container py-4">
+            <header class="pb-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+                    <img src="https://image.cdn2.seaart.ai/2024-08-25/cr5k2qde878c73a3mbc0/d9c4eba75a0f3fc5babc3820e2880a21052b5a47_high.webp" height="32" alt="">
+                    <span class="fs-4">Cat</span>
+                </a>
+            </header>
+
+            <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Cat</h1>
+                    <p class="col-md-8 fs-4">Cats are also popular pets due to their relatively independent nature and the companionship they offer. Do you have a cat, or are you thinking about getting one? 🐾</p>
+                    <button class="btn btn-primary btn-lg" type="button" onclick="window.open('https://en.wikipedia.org/wiki/Cat','_blank')">More..</button>
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-bg-dark rounded-3">
+                        <h2>Scottish Fold</h2>
+                        <p>The Scottish Fold is a distinctive and popular breed of domestic cat known for its unique folded ears, which give it an “owl-like” appearance. This characteristic is due to a natural dominant gene mutation that affects cartilage
+                            throughout the body.🐾🐾🐾🐾🐾</p>
+                        <img src="https://live.staticflickr.com/3321/3590493912_80fb98dd43_b.jpg" width="50%" alt="Scottish Fold"><br><br>
+                        <button class="btn btn-outline-light" type="button" onclick="window.open('https://en.wikipedia.org/wiki/Scottish_Fold','_blank')">More..</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                        <h2>Ragdoll</h2>
+                        <p>The Ragdoll is a breed of cat with a distinct colorpoint coat and blue eyes. Its morphology is large and weighty, and it has a semi-long and silky soft coat.🐾🐾🐾🐾🐾🐾</p>
+                        <img src="https://storage.needpix.com/rsynced_images/cat-pretty-2126692_1280.jpg" width="50%" alt="Asian elephant"><br><br>
+                        <button class="btn btn-outline-secondary" type="button" onclick="window.open('https://en.wikipedia.org/wiki/Ragdoll','_blank')">More..</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Copyright notice-->
+            <footer class="pt-3 mt-4 text-body-secondary border-top">
+                &copy; 2024
+            </footer>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-          <h2>Asian elephant</h2>
-          <p>Asian elephants frequently inhabit grasslands, tropical evergreen forests, semi-evergreen forests, moist deciduous forests, dry deciduous forests and dry thorn forests.</p>
-          <img src="assets/images/asian_elephant_1.jpg" width="50%" alt="Asian elephant"><br><br>
-          <button class="btn btn-outline-secondary" type="button" onclick="window.open('https://www.flickr.com/photos/berniedup/7852943934','_blank')">More..</button>
-        </div>
-      </div>
-    </div>
+    </main>
 
-    <!--Copyright notice-->
-    <footer class="pt-3 mt-4 text-body-secondary border-top">
-      &copy; 2024
-    </footer>
-  </div>
-</main>
+    <!--Important script bundled with color mode toggle-->
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!--Important script bundled with color mode toggle-->
-  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-  </body>
 </html>
